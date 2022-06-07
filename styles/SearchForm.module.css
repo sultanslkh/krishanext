@@ -1,0 +1,87 @@
+.mainsection {
+	color: #000;
+	font-size: 13px;
+	background: #ffd47e;
+	/* opacity: 0; */
+	transition: opacity 0.2s ease-out;
+	line-height: 1.42857;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.mainsection form {
+	display: flex;
+
+	padding: 10px;
+}
+
+.inputswrap {
+	display: flex;
+	flex-direction: column;
+}
+
+.inputs {
+	display: flex;
+	gap: 12px;
+	align-items: center;
+}
+
+.searchblock select {
+	width: 107px;
+	height: 26px;
+}
+
+.searchcategory select {
+	width: 150px;
+	height: 25px;
+}
+
+.region button {
+	border: none;
+	background: inherit;
+	border-bottom: 1px dotted;
+}
+
+.prices input {
+	width: 80px;
+	height: 20px;
+	padding: 5px;
+}
+
+.searchBlockFilters {
+	display: flex;
+	gap: 6px;
+}
+
+.checkboxconditions {
+	margin-top: 20px;
+	display: flex;
+	gap: 10px;
+}
+.checkboxconditions div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 5px;
+}
+
+.submits {
+	display: flex;
+	gap: 6px;
+
+	margin-left: 10px;
+}
+
+.submits button {
+	display: inline-block;
+	margin: 0 5px;
+	height: 30px;
+	padding: 0 14px;
+	border: 1px solid #dfab44;
+	border-radius: 4px;
+	color: #000;
+	font-size: 14px;
+	text-decoration: none;
+	vertical-align: middle;
+	background-color: #fffee3;
+}

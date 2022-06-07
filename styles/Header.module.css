@@ -25,3 +25,23 @@
 	font-size: 17px;
 	font-weight: 300;
 }
+
+.header button {
+	margin-bottom: 6px;
+	background: inherit;
+	padding: 9px 15px;
+	border: solid 1px #d4d4da;
+	border-radius: 4px;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+.header button:hover {
+	margin-bottom: 6px;
+	padding: 9px 15px;
+	border: solid 1px #d4d4da;
+	background: #d4d4dadc;
+	border-radius: 4px;
+	font-size: 15px;
+	text-decoration: none;
+}

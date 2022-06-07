@@ -1,11 +1,12 @@
 [
-	{ "id": 1, "quantity": "1" },
-	{ "id": 2, "quantity": "1-2" },
-	{ "id": 3, "quantity": "2" },
-	{ "id": 4, "quantity": "2-3" },
-	{ "id": 5, "quantity": "3" },
-	{ "id": 6, "quantity": "3-4" },
-	{ "id": 7, "quantity": "4" },
-	{ "id": 8, "quantity": "4-5" },
-	{ "id": 9, "quantity": "5" }
+	{ "id": 1, "quantity": "любой комнатности" },
+	{ "id": 2, "quantity": "1 - комн." },
+	{ "id": 3, "quantity": "1-2 - комн." },
+	{ "id": 4, "quantity": "2 - комн." },
+	{ "id": 5, "quantity": "2-3 - комн." },
+	{ "id": 6, "quantity": "3 - комн." },
+	{ "id": 7, "quantity": "3-4 - комн." },
+	{ "id": 8, "quantity": "4 - комн." },
+	{ "id": 9, "quantity": "4-5 - комн." },
+	{ "id": 10, "quantity": "5 - комн." }
 ]

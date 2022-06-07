@@ -9,7 +9,7 @@ function Header({ navs }) {
 			<ul>
 				{navs.map((nav) => (
 					<li key={nav.id}>
-						<Link href="">{<a>{nav.title}</a>}</Link>
+						<Link href={`/nav/${nav.id}`}>{<a>{nav.title}</a>}</Link>
 					</li>
 				))}
 			</ul>

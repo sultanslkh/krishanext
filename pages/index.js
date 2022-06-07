@@ -1,7 +1,8 @@
 import Head from 'next/head';
 import PrimaryNav from '../components/PrimaryNav';
-import Wrapper from '../components/Wrapper';
+import Wrapper from '../UI/Wrapper';
 import Header from '../components/Header/Header';
+import SearchForm from '../components/SearchForm';
 import 'bootstrap/dist/css/bootstrap.css';
 
 export default function Home({
@@ -25,6 +26,11 @@ export default function Home({
 			<div id="fullpage-wrapper" style={{ borderTop: 'solid 0.7px #d2d5d5' }}>
 				<Wrapper>
 					<Header navs={navs} />
+					<SearchForm
+						location={kazLocation}
+						realstatetype={realStateTypeList}
+						rooms={roomNumber}
+					/>
 				</Wrapper>
 			</div>
 		</div>
@@ -35,20 +41,20 @@ export default function Home({
 export async function getStaticProps() {
 	//RealState Type:
 	const response1 = await fetch(
-		'http://localhost:3002/api/get-state-type-list'
+		'http://localhost:3001/api/get-state-type-list'
 	);
 	const realStateTypeList = await response1.json();
 
 	//Location:
-	const response2 = await fetch('http://localhost:3002/api/get-location');
+	const response2 = await fetch('http://localhost:3001/api/get-location');
 	const kazLocation = await response2.json();
 
 	//Room number:
-	const response3 = await fetch('http://localhost:3002/api/get-room-number');
+	const response3 = await fetch('http://localhost:3001/api/get-room-number');
 	const roomNumber = await response3.json();
 
 	//Category:
-	const response4 = await fetch('http://localhost:3002/api/get-category');
+	const response4 = await fetch('http://localhost:3001/api/get-category');
 	const category = await response4.json();
 
 	//Nav-title:

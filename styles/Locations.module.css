@@ -1,0 +1,61 @@
+.main_drop_cont {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	min-width: 316px;
+	padding-top: 16px;
+	background: #fff;
+	width: 320px;
+	height: 390px;
+	border-radius: 5px;
+	box-shadow: 0 6px 12px hsla(0, 0%, 0%, 0.18);
+
+	position: absolute;
+	top: 21.5%;
+	left: 27.9%;
+	z-index: 100;
+	transition: all 5s;
+}
+
+.arrow {
+	position: absolute;
+	width: 120px;
+	height: 120px;
+	color: white;
+	top: -12%;
+	left: -2%;
+	z-index: -1;
+}
+
+.main_drop_cont input {
+	width: 284px;
+	height: 40px;
+	padding: 0 3px 0 5px;
+	border: 1px solid #abadb3;
+	border-radius: 5px;
+}
+
+.main_drop_cont select {
+	margin-top: 10px;
+	width: 284px;
+	height: 310px;
+	border: 1px solid #abadb3;
+	border-radius: 5px;
+	padding: 15px;
+}
+
+.main_drop_cont span {
+	position: absolute;
+	bottom: 95%;
+	left: 101%;
+	cursor: pointer;
+	color: #fff;
+}
+
+.select option {
+	font-size: 15px;
+	font-weight: 300;
+	margin-bottom: 8px;
+}
