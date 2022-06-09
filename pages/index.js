@@ -2,6 +2,8 @@ import Head from 'next/head';
 import PrimaryNav from '../components/PrimaryNav';
 import Wrapper from '../UI/Wrapper';
 import Header from '../components/Header/Header';
+import HotHeader from '../components/Hot-Offers/HotHeader';
+import HotOffersMain from '../components/Hot-Offers/HotOffersMain';
 import SearchForm from '../components/SearchForm';
 import 'bootstrap/dist/css/bootstrap.css';
 
@@ -11,6 +13,8 @@ export default function Home({
 	roomNumber,
 	category,
 	navs,
+	hotTitles,
+	hotImgsSell,
 }) {
 	return (
 		<div>
@@ -31,6 +35,12 @@ export default function Home({
 						realstatetype={realStateTypeList}
 						rooms={roomNumber}
 					/>
+					<HotHeader />
+					<HotOffersMain
+						hotTitles={hotTitles}
+						hotSellImgs={hotImgsSell}
+						hotLocations={kazLocation}
+					/>
 				</Wrapper>
 			</div>
 		</div>
@@ -41,27 +51,43 @@ export default function Home({
 export async function getStaticProps() {
 	//RealState Type:
 	const response1 = await fetch(
-		'http://localhost:3001/api/get-state-type-list'
+		'http://localhost:3000/api/get-state-type-list'
 	);
 	const realStateTypeList = await response1.json();
 
 	//Location:
-	const response2 = await fetch('http://localhost:3001/api/get-location');
+	const response2 = await fetch('http://localhost:3000/api/get-location');
 	const kazLocation = await response2.json();
 
 	//Room number:
-	const response3 = await fetch('http://localhost:3001/api/get-room-number');
+	const response3 = await fetch('http://localhost:3000/api/get-room-number');
 	const roomNumber = await response3.json();
 
 	//Category:
-	const response4 = await fetch('http://localhost:3001/api/get-category');
+	const response4 = await fetch('http://localhost:3000/api/get-category');
 	const category = await response4.json();
 
 	//Nav-title:
-	const response5 = await fetch('http://localhost:3002/api/get-nav-lists');
+	const response5 = await fetch('http://localhost:3000/api/get-nav-lists');
 	const navs = await response5.json();
 
+	//Hot-titles:
+	const response6 = await fetch('http://localhost:3000/api/get-hot-titles');
+	const hotTitles = await response6.json();
+
+	//Hot-imgs:
+	const response7 = await fetch('http://localhost:3000/api/get-sell-imgs-row');
+	const hotImgsSell = await response7.json();
+
 	return {
-		props: { realStateTypeList, kazLocation, roomNumber, category, navs },
+		props: {
+			realStateTypeList,
+			kazLocation,
+			roomNumber,
+			category,
+			navs,
+			hotTitles,
+			hotImgsSell,
+		},
 	};
 }

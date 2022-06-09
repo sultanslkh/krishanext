@@ -1,37 +1,68 @@
 import { React, useState } from 'react';
 import Link from 'next/link';
 import Locations from './Locations';
+import NewEstatesDrop from './NewEstatesDrop';
 import stylish from '../styles/SearchForm.module.css';
 
 function SearchForm(props) {
 	const [active, setActive] = useState(false);
+	const [activeNewEstates, setActiveNewEstates] = useState(false);
 	const [appearFarmHouse, setAppearanceFarmHouse] = useState('none');
-	const [appearAppart, setAppearanceAppart] = useState('none');
+	const [appearAppart, setAppearanceAppart] = useState('flex');
 	const [appearOffice, setAppearanceOffice] = useState('none');
 
 	function typeHandler(e) {
-		console.log(e.target.value);
-		if (e.target.value === 'дачу' || e.target.value === 'участок')
-			setAppearanceFarmHouse('block');
-
-		if (e.target.value === 'квартиру' || e.target.value === 'дом')
-			setAppearanceAppart('block');
+		if (
+			e.target.value === props.realstatetype.at(0).name ||
+			e.target.value === props.realstatetype.at(1).name
+		) {
+			setAppearanceAppart('flex');
+			setAppearanceFarmHouse('none');
+			setAppearanceOffice('none');
+		}
+		if (
+			e.target.value === props.realstatetype.at(2).name ||
+			e.target.value === props.realstatetype.at(3).name
+		) {
+			setAppearanceFarmHouse('flex');
+			setAppearanceAppart('none');
+			setAppearanceOffice('none');
+		}
 
 		if (
-			e.target.value === 'офис' ||
-			e.target.value === 'помещение' ||
-			e.target.value === 'здание' ||
-			e.target.value === 'магазин, бутик'
-		)
-			setAppearanceOffice('block');
+			e.target.value === props.realstatetype.at(4).name ||
+			e.target.value === props.realstatetype.at(5).name ||
+			e.target.value === props.realstatetype.at(6).name ||
+			e.target.value === props.realstatetype.at(7).name
+		) {
+			setAppearanceAppart('none');
+			setAppearanceFarmHouse('none');
+			setAppearanceOffice('flex');
+		}
+		if (
+			e.target.value === props.realstatetype.at(8).name ||
+			e.target.value === props.realstatetype.at(9).name
+		) {
+			setAppearanceAppart('none');
+			setAppearanceFarmHouse('none');
+			setAppearanceOffice('none');
+		}
 	}
 
 	function showModal() {
 		setActive(true);
 	}
 
+	function showModalNewEstates() {
+		setActiveNewEstates(true);
+	}
+
 	function hideModal() {
 		setActive(false);
+	}
+
+	function hideNewEstatesModal() {
+		setActiveNewEstates(false);
 	}
 
 	return (
@@ -66,7 +97,7 @@ function SearchForm(props) {
 							{/* //////////////////////////  */}
 
 							<div className={stylish.searchBlockFilters}>
-								<div style={{ display: { appearAppart } }}>
+								<div style={{ display: `${appearAppart}` }}>
 									<select>
 										{props.rooms.map((room) => (
 											<option>{room.quantity}</option>
@@ -76,7 +107,7 @@ function SearchForm(props) {
 
 								<div
 									className="for-farmhouse special-areas"
-									style={{ display: 'none' }}
+									style={{ display: `${appearFarmHouse}` }}
 								>
 									<label>От</label>
 									<input type="number" />
@@ -87,7 +118,7 @@ function SearchForm(props) {
 
 								<div
 									className="special-areas officies special shops"
-									style={{ display: 'none' }}
+									style={{ display: `${appearOffice}` }}
 								>
 									<label>От</label>
 									<input type="number" />
@@ -114,7 +145,7 @@ function SearchForm(props) {
 								<input type="checkbox" />
 								<span>есть фото</span>
 							</div>
-							<div>
+							<div onMouseEnter={showModalNewEstates}>
 								<input type="checkbox" />
 								<span>Новостройки</span>
 							</div>
@@ -126,7 +157,12 @@ function SearchForm(props) {
 					</div>
 				</div>
 			</section>
+
 			{active && <Locations hideModal={hideModal} locations={props.location} />}
+
+			{activeNewEstates && (
+				<NewEstatesDrop hideNewEstatesModal={hideNewEstatesModal} />
+			)}
 		</>
 	);
 }

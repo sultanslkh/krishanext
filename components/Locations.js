@@ -1,6 +1,26 @@
+import { React, useRef, useEffect } from 'react';
 import stylish from '../styles/Locations.module.css';
 
 function Locations(props) {
+	// const sortRef = useRef();
+
+	// function handleOutsideClick(e) {
+	// 	console.log(e);
+
+	// 	const path = e.path;
+
+	// 	if (
+	// 		!path.includes(sortRef.current) ||
+	// 		(e.composedPath && e.composedPath())
+	// 	) {
+	// 		() => props.hideModal();
+	// 	}
+	// }
+
+	// useEffect(() => {
+	// 	document.body.addEventListener('click', handleOutsideClick);
+	// }, []);
+
 	return (
 		<div className={stylish.main_drop_cont}>
 			<svg

@@ -1,0 +1,19 @@
+.main_container {
+	display: flex;
+	align-items: center;
+	margin: 20px 5px 2px 0px;
+}
+
+.main_container h1 {
+	margin-right: 10px;
+	margin-bottom: 0;
+	color: #f90;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.main_container a {
+	font-size: 13px;
+	color: #2a81dd;
+	text-decoration: underline;
+}

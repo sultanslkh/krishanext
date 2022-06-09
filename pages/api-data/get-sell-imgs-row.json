@@ -1,0 +1,545 @@
+[
+	{
+		"id": 1,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/36/36adda67-863d-4ccf-acb7-bb7ac93def0f/15-750x470.webp",
+		"title": "6-комнатная квартира, 310 м², 6/20 этаж, Нажимеденова 2 — Шамши Калдаякова",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	},
+	{
+		"id": 2,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/36/36adda67-863d-4ccf-acb7-bb7ac93def0f/12-full.webp",
+		"title": "3-комнатная квартира, 230 м², 7/12 этаж, Сейфуллинна 2 — Шамши Калдаякова",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	},
+	{
+		"id": 3,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/36/36adda67-863d-4ccf-acb7-bb7ac93def0f/14-full.webp",
+		"title": "1-комнатная квартира, 30 м², 3/12 этаж, Муканова 2 — Шамши Калдаякова",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	},
+
+	{
+		"id": 4,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/30/304e959b-d8b6-4aa1-a79d-e8cad53f0123/1-448x280.webp",
+		"title": "6-комнатная квартира, 280 м², 14/28 этаж, Байтурсынова",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	},
+
+	{
+		"id": 5,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/b8/b872b0f8-2a52-4c28-ae9e-93f772aaa046/8-448x280.webp",
+		"title": "8-комнатный дом, 333 м², 10 сот., Ботанический сад 10",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	},
+
+	{
+		"id": 6,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/9f/9f28fe1d-4072-4404-953a-94addc003363/3-448x280.webp",
+		"title": "5-комнатный дом, 175 м², 15 сот., СТ Весна",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	},
+
+	{
+		"id": 7,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/e1/e18bbf3d-8aa4-452d-9000-c7cc34650f65/3-448x280.webp",
+		"title": "6-комнатный дом, 300 м², 12 сот., Каюма Мухамедханова 31б",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	},
+
+	{
+		"id": 8,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/69/69089066-9be0-4a96-a67d-54d5a9d4deeb/1-448x280.webp",
+		"title": "5-комнатный дом, 68.2 м², 6.28 сот., мкр Кемел (Первомайское) — Шекспира",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	},
+	{
+		"id": 9,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/44/44dd7d63-58fb-4583-afca-3e0b757de1bb/1-448x280.webp",
+		"title": "1-комнатная квартира, 30 м², 3/12 этаж, Муканова 2 — Шамши Калдаякова",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	},
+	{
+		"id": 10,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/ee/ee0aff29-88fa-4e30-891c-b810caa3e435/1-448x280.webp",
+		"title": "1-комнатная квартира, 30 м², 3/12 этаж, Муканова 2 — Шамши Калдаякова",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	},
+	{
+		"id": 11,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/7e/7ed693a4-c667-4814-b7fa-dae66f797561/1-448x280.webp",
+		"title": "1-комнатная квартира, 30 м², 3/12 этаж, Муканова 2 — Шамши Калдаякова",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	},
+	{
+		"id": 12,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/32/32e555eb-a1da-42e5-a5a9-0e9ac1a7b26a/2-448x280.webp",
+		"title": "1-комнатная квартира, 30 м², 3/12 этаж, Муканова 2 — Шамши Калдаякова",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	},
+
+	{
+		"id": 13,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/9c/9cbda34a-df2e-4b2c-9fed-e1afc4288870/5-448x280.webp",
+		"title": "1-комнатная квартира, 30 м², 3/12 этаж, Муканова 2 — Шамши Калдаякова",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	},
+
+	{
+		"id": 14,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/7f/7fbe7d01-2717-4b76-8569-b660fcff0800/11-448x280.webp",
+		"title": "1-комнатная квартира, 30 м², 3/12 этаж, Муканова 2 — Шамши Калдаякова",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	},
+
+	{
+		"id": 15,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/f1/f18bf0e4-02bb-425b-b323-fd56e0b6dafb/1-448x280.webp",
+		"title": "1-комнатная квартира, 30 м², 3/12 этаж, Муканова 2 — Шамши Калдаякова",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	},
+
+	{
+		"id": 16,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/ee/ee0aff29-88fa-4e30-891c-b810caa3e435/1-448x280.webp",
+		"title": "1-комнатная квартира, 30 м², 3/12 этаж, Муканова 2 — Шамши Калдаякова",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	},
+
+	{
+		"id": 17,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/33/33b61ca6-142e-49e0-8c09-424ce52bbae1/1-448x280.webp",
+		"title": "1-комнатная квартира, 30 м², 3/12 этаж, Муканова 2 — Шамши Калдаякова",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	},
+	{
+		"id": 18,
+		"imgUrl": "https://alakt-photos-kr.kcdn.kz/webp/c0/c0e86a6d-fa23-49ec-b113-5af3c048b82a/1-448x280.webp",
+		"title": "1-комнатная квартира, 30 м², 3/12 этаж, Муканова 2 — Шамши Калдаякова",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	},
+	{
+		"id": 1,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/36/36adda67-863d-4ccf-acb7-bb7ac93def0f/15-750x470.webp",
+		"title": "6-комнатная квартира, 310 м², 6/20 этаж, Нажимеденова 2 — Шамши Калдаякова",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	},
+	{
+		"id": 2,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/36/36adda67-863d-4ccf-acb7-bb7ac93def0f/12-full.webp",
+		"title": "3-комнатная квартира, 230 м², 7/12 этаж, Сейфуллинна 2 — Шамши Калдаякова",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	},
+	{
+		"id": 3,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/36/36adda67-863d-4ccf-acb7-bb7ac93def0f/14-full.webp",
+		"title": "1-комнатная квартира, 30 м², 3/12 этаж, Муканова 2 — Шамши Калдаякова",
+		"price": "20 млн",
+		"cityName": "Алтматы"
+	},
+
+	{
+		"id": 4,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/30/304e959b-d8b6-4aa1-a79d-e8cad53f0123/1-448x280.webp",
+		"title": "6-комнатная квартира, 280 м², 14/28 этаж, Байтурсынова",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	},
+
+	{
+		"id": 5,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/b8/b872b0f8-2a52-4c28-ae9e-93f772aaa046/8-448x280.webp",
+		"title": "8-комнатный дом, 333 м², 10 сот., Ботанический сад 10",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	},
+
+	{
+		"id": 6,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/9f/9f28fe1d-4072-4404-953a-94addc003363/3-448x280.webp",
+		"title": "5-комнатный дом, 175 м², 15 сот., СТ Весна",
+		"price": "20 млн",
+		"cityName": "Алтматы"
+	},
+
+	{
+		"id": 7,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/e1/e18bbf3d-8aa4-452d-9000-c7cc34650f65/3-448x280.webp",
+		"title": "6-комнатный дом, 300 м², 12 сот., Каюма Мухамедханова 31б",
+		"price": "20 млн",
+		"cityName": "Алтматы"
+	},
+
+	{
+		"id": 8,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/69/69089066-9be0-4a96-a67d-54d5a9d4deeb/1-448x280.webp",
+		"title": "5-комнатный дом, 68.2 м², 6.28 сот., мкр Кемел (Первомайское) — Шекспира",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	},
+	{
+		"id": 9,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/44/44dd7d63-58fb-4583-afca-3e0b757de1bb/1-448x280.webp",
+		"title": "1-комнатная квартира, 30 м², 3/12 этаж, Муканова 2 — Шамши Калдаякова",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	},
+	{
+		"id": 10,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/ee/ee0aff29-88fa-4e30-891c-b810caa3e435/1-448x280.webp",
+		"title": "1-комнатная квартира, 30 м², 3/12 этаж, Муканова 2 — Шамши Калдаякова",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	},
+	{
+		"id": 11,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/7e/7ed693a4-c667-4814-b7fa-dae66f797561/1-448x280.webp",
+		"title": "1-комнатная квартира, 30 м², 3/12 этаж, Муканова 2 — Шамши Калдаякова",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	},
+	{
+		"id": 12,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/32/32e555eb-a1da-42e5-a5a9-0e9ac1a7b26a/2-448x280.webp",
+		"title": "1-комнатная квартира, 30 м², 3/12 этаж, Муканова 2 — Шамши Калдаякова",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	},
+
+	{
+		"id": 13,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/9c/9cbda34a-df2e-4b2c-9fed-e1afc4288870/5-448x280.webp",
+		"title": "1-комнатная квартира, 30 м², 3/12 этаж, Муканова 2 — Шамши Калдаякова",
+		"price": "20 млн",
+		"cityName": "Алтматы"
+	},
+
+	{
+		"id": 14,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/7f/7fbe7d01-2717-4b76-8569-b660fcff0800/11-448x280.webp",
+		"title": "1-комнатная квартира, 30 м², 3/12 этаж, Муканова 2 — Шамши Калдаякова",
+		"price": "20 млн",
+		"cityName": "Алтматы"
+	},
+
+	{
+		"id": 15,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/f1/f18bf0e4-02bb-425b-b323-fd56e0b6dafb/1-448x280.webp",
+		"title": "1-комнатная квартира, 30 м², 3/12 этаж, Муканова 2 — Шамши Калдаякова",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	},
+
+	{
+		"id": 16,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/ee/ee0aff29-88fa-4e30-891c-b810caa3e435/1-448x280.webp",
+		"title": "1-комнатная квартира, 30 м², 3/12 этаж, Муканова 2 — Шамши Калдаякова",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	},
+
+	{
+		"id": 17,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/33/33b61ca6-142e-49e0-8c09-424ce52bbae1/1-448x280.webp",
+		"title": "1-комнатная квартира, 30 м², 3/12 этаж, Муканова 2 — Шамши Калдаякова",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	},
+	{
+		"id": 18,
+		"imgUrl": "https://alakt-photos-kr.kcdn.kz/webp/c0/c0e86a6d-fa23-49ec-b113-5af3c048b82a/1-448x280.webp",
+		"title": "1-комнатная квартира, 30 м², 3/12 этаж, Муканова 2 — Шамши Калдаякова",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	},
+	{
+		"id": 19,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/36/36adda67-863d-4ccf-acb7-bb7ac93def0f/15-750x470.webp",
+		"title": "6-комнатная квартира, 310 м², 6/20 этаж, Нажимеденова 2 — Шамши Калдаякова",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	},
+	{
+		"id": 20,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/36/36adda67-863d-4ccf-acb7-bb7ac93def0f/12-full.webp",
+		"title": "3-комнатная квартира, 230 м², 7/12 этаж, Сейфуллинна 2 — Шамши Калдаякова",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	},
+	{
+		"id": 21,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/36/36adda67-863d-4ccf-acb7-bb7ac93def0f/14-full.webp",
+		"title": "1-комнатная квартира, 30 м², 3/12 этаж, Муканова 2 — Шамши Калдаякова",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	},
+
+	{
+		"id": 22,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/30/304e959b-d8b6-4aa1-a79d-e8cad53f0123/1-448x280.webp",
+		"title": "6-комнатная квартира, 280 м², 14/28 этаж, Байтурсынова",
+		"price": "20 млн"
+	},
+
+	{
+		"id": 23,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/b8/b872b0f8-2a52-4c28-ae9e-93f772aaa046/8-448x280.webp",
+		"title": "8-комнатный дом, 333 м², 10 сот., Ботанический сад 10",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	},
+
+	{
+		"id": 24,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/9f/9f28fe1d-4072-4404-953a-94addc003363/3-448x280.webp",
+		"title": "5-комнатный дом, 175 м², 15 сот., СТ Весна",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	},
+
+	{
+		"id": 25,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/e1/e18bbf3d-8aa4-452d-9000-c7cc34650f65/3-448x280.webp",
+		"title": "6-комнатный дом, 300 м², 12 сот., Каюма Мухамедханова 31б",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	},
+
+	{
+		"id": 26,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/69/69089066-9be0-4a96-a67d-54d5a9d4deeb/1-448x280.webp",
+		"title": "5-комнатный дом, 68.2 м², 6.28 сот., мкр Кемел (Первомайское) — Шекспира",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	},
+	{
+		"id": 27,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/44/44dd7d63-58fb-4583-afca-3e0b757de1bb/1-448x280.webp",
+		"title": "1-комнатная квартира, 30 м², 3/12 этаж, Муканова 2 — Шамши Калдаякова",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	},
+	{
+		"id": 28,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/ee/ee0aff29-88fa-4e30-891c-b810caa3e435/1-448x280.webp",
+		"title": "1-комнатная квартира, 30 м², 3/12 этаж, Муканова 2 — Шамши Калдаякова",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	},
+	{
+		"id": 29,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/7e/7ed693a4-c667-4814-b7fa-dae66f797561/1-448x280.webp",
+		"title": "1-комнатная квартира, 30 м², 3/12 этаж, Муканова 2 — Шамши Калдаякова",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	},
+	{
+		"id": 30,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/32/32e555eb-a1da-42e5-a5a9-0e9ac1a7b26a/2-448x280.webp",
+		"title": "1-комнатная квартира, 30 м², 3/12 этаж, Муканова 2 — Шамши Калдаякова",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	},
+
+	{
+		"id": 31,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/9c/9cbda34a-df2e-4b2c-9fed-e1afc4288870/5-448x280.webp",
+		"title": "1-комнатная квартира, 30 м², 3/12 этаж, Муканова 2 — Шамши Калдаякова",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	},
+
+	{
+		"id": 32,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/7f/7fbe7d01-2717-4b76-8569-b660fcff0800/11-448x280.webp",
+		"title": "1-комнатная квартира, 30 м², 3/12 этаж, Муканова 2 — Шамши Калдаякова",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	},
+
+	{
+		"id": 33,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/f1/f18bf0e4-02bb-425b-b323-fd56e0b6dafb/1-448x280.webp",
+		"title": "1-комнатная квартира, 30 м², 3/12 этаж, Муканова 2 — Шамши Калдаякова",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	},
+
+	{
+		"id": 34,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/ee/ee0aff29-88fa-4e30-891c-b810caa3e435/1-448x280.webp",
+		"title": "1-комнатная квартира, 30 м², 3/12 этаж, Муканова 2 — Шамши Калдаякова",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	},
+
+	{
+		"id": 35,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/33/33b61ca6-142e-49e0-8c09-424ce52bbae1/1-448x280.webp",
+		"title": "1-комнатная квартира, 30 м², 3/12 этаж, Муканова 2 — Шамши Калдаякова",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	},
+	{
+		"id": 36,
+		"imgUrl": "https://alakt-photos-kr.kcdn.kz/webp/c0/c0e86a6d-fa23-49ec-b113-5af3c048b82a/1-448x280.webp",
+		"title": "1-комнатная квартира, 30 м², 3/12 этаж, Муканова 2 — Шамши Калдаякова",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	},
+	{
+		"id": 37,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/36/36adda67-863d-4ccf-acb7-bb7ac93def0f/15-750x470.webp",
+		"title": "6-комнатная квартира, 310 м², 6/20 этаж, Нажимеденова 2 — Шамши Калдаякова",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	},
+	{
+		"id": 38,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/36/36adda67-863d-4ccf-acb7-bb7ac93def0f/12-full.webp",
+		"title": "3-комнатная квартира, 230 м², 7/12 этаж, Сейфуллинна 2 — Шамши Калдаякова",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	},
+	{
+		"id": 39,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/36/36adda67-863d-4ccf-acb7-bb7ac93def0f/14-full.webp",
+		"title": "1-комнатная квартира, 30 м², 3/12 этаж, Муканова 2 — Шамши Калдаякова",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	},
+
+	{
+		"id": 40,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/30/304e959b-d8b6-4aa1-a79d-e8cad53f0123/1-448x280.webp",
+		"title": "6-комнатная квартира, 280 м², 14/28 этаж, Байтурсынова",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	},
+
+	{
+		"id": 41,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/b8/b872b0f8-2a52-4c28-ae9e-93f772aaa046/8-448x280.webp",
+		"title": "8-комнатный дом, 333 м², 10 сот., Ботанический сад 10",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	},
+
+	{
+		"id": 42,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/9f/9f28fe1d-4072-4404-953a-94addc003363/3-448x280.webp",
+		"title": "5-комнатный дом, 175 м², 15 сот., СТ Весна",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	},
+
+	{
+		"id": 43,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/e1/e18bbf3d-8aa4-452d-9000-c7cc34650f65/3-448x280.webp",
+		"title": "6-комнатный дом, 300 м², 12 сот., Каюма Мухамедханова 31б",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	},
+
+	{
+		"id": 44,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/69/69089066-9be0-4a96-a67d-54d5a9d4deeb/1-448x280.webp",
+		"title": "5-комнатный дом, 68.2 м², 6.28 сот., мкр Кемел (Первомайское) — Шекспира",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	},
+	{
+		"id": 45,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/44/44dd7d63-58fb-4583-afca-3e0b757de1bb/1-448x280.webp",
+		"title": "1-комнатная квартира, 30 м², 3/12 этаж, Муканова 2 — Шамши Калдаякова",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	},
+	{
+		"id": 46,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/ee/ee0aff29-88fa-4e30-891c-b810caa3e435/1-448x280.webp",
+		"title": "1-комнатная квартира, 30 м², 3/12 этаж, Муканова 2 — Шамши Калдаякова",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	},
+	{
+		"id": 47,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/7e/7ed693a4-c667-4814-b7fa-dae66f797561/1-448x280.webp",
+		"title": "1-комнатная квартира, 30 м², 3/12 этаж, Муканова 2 — Шамши Калдаякова",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	},
+	{
+		"id": 48,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/32/32e555eb-a1da-42e5-a5a9-0e9ac1a7b26a/2-448x280.webp",
+		"title": "1-комнатная квартира, 30 м², 3/12 этаж, Муканова 2 — Шамши Калдаякова",
+		"price": "20 млн",
+		"cityName": "Алтматы"
+	},
+
+	{
+		"id": 49,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/9c/9cbda34a-df2e-4b2c-9fed-e1afc4288870/5-448x280.webp",
+		"title": "1-комнатная квартира, 30 м², 3/12 этаж, Муканова 2 — Шамши Калдаякова",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	},
+
+	{
+		"id": 50,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/7f/7fbe7d01-2717-4b76-8569-b660fcff0800/11-448x280.webp",
+		"title": "1-комнатная квартира, 30 м², 3/12 этаж, Муканова 2 — Шамши Калдаякова",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	},
+
+	{
+		"id": 51,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/f1/f18bf0e4-02bb-425b-b323-fd56e0b6dafb/1-448x280.webp",
+		"title": "1-комнатная квартира, 30 м², 3/12 этаж, Муканова 2 — Шамши Калдаякова",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	},
+
+	{
+		"id": 52,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/ee/ee0aff29-88fa-4e30-891c-b810caa3e435/1-448x280.webp",
+		"title": "1-комнатная квартира, 30 м², 3/12 этаж, Муканова 2 — Шамши Калдаякова",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	},
+
+	{
+		"id": 53,
+		"imgUrl": "https://alatp-photos-kr.kcdn.kz/webp/33/33b61ca6-142e-49e0-8c09-424ce52bbae1/1-448x280.webp",
+		"title": "1-комнатная квартира, 30 м², 3/12 этаж, Муканова 2 — Шамши Калдаякова",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	},
+	{
+		"id": 54,
+		"imgUrl": "https://alakt-photos-kr.kcdn.kz/webp/c0/c0e86a6d-fa23-49ec-b113-5af3c048b82a/1-448x280.webp",
+		"title": "1-комнатная квартира, 30 м², 3/12 этаж, Муканова 2 — Шамши Калдаякова",
+		"price": "20 млн",
+		"cityName": "Алматы"
+	}
+]

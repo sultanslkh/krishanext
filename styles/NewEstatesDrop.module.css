@@ -1,0 +1,41 @@
+.estates_main_container {
+	width: 280px;
+	height: 160px;
+	background: white;
+	border-radius: 3px;
+	padding: 8px;
+	box-shadow: 0 6px 12px hsla(0, 0%, 0%, 0.18);
+	z-index: 1000;
+
+	position: absolute;
+	top: 22%;
+	left: 14.7%;
+}
+
+.checkbox_title {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 8px 5px;
+
+	font-size: 13px;
+}
+
+.estates_context {
+	display: flex;
+	flex-direction: column;
+	/* justify-content: center; */
+	/* align-items: center; */
+
+	margin-top: 18px;
+	padding: 8px;
+	gap: 8px;
+}
+
+.estates_context strong {
+	font-size: 18px;
+}
+
+.estates_context p {
+	font-size: 15px;
+}
