@@ -5,6 +5,7 @@ import Header from '../components/Header/Header';
 import HotHeader from '../components/Hot-Offers/HotHeader';
 import HotOffersMain from '../components/Hot-Offers/HotOffersMain';
 import SearchForm from '../components/SearchForm';
+import PreContentRow from '../components/Content-Preview/PreContentRow';
 import 'bootstrap/dist/css/bootstrap.css';
 
 export default function Home({
@@ -15,6 +16,10 @@ export default function Home({
 	navs,
 	hotTitles,
 	hotImgsSell,
+	hotImgsRent,
+	hotTitlesRent,
+	contentNewsList,
+	contentNewsImg,
 }) {
 	return (
 		<div>
@@ -39,7 +44,13 @@ export default function Home({
 					<HotOffersMain
 						hotTitles={hotTitles}
 						hotSellImgs={hotImgsSell}
+						hotImgsRent={hotImgsRent}
+						hotTitlesRent={hotTitlesRent}
 						hotLocations={kazLocation}
+					/>
+					<PreContentRow
+						contentNewsList={contentNewsList}
+						contentNewsImg={contentNewsImg}
 					/>
 				</Wrapper>
 			</div>
@@ -79,6 +90,28 @@ export async function getStaticProps() {
 	const response7 = await fetch('http://localhost:3000/api/get-sell-imgs-row');
 	const hotImgsSell = await response7.json();
 
+	//Hot-rent-imgs:
+	const response8 = await fetch('http://localhost:3000/api/get-rent-imgs-row');
+	const hotImgsRent = await response8.json();
+
+	//Hot-titles-rent:
+	const response9 = await fetch(
+		'http://localhost:3000/api/get-hot-titles-rent'
+	);
+	const hotTitlesRent = await response9.json();
+
+	//Content-news-list:
+	const response10 = await fetch(
+		'http://localhost:3000/api/get-content-news-list'
+	);
+	const contentNewsList = await response10.json();
+
+	//Hot-titles-rent:
+	const response11 = await fetch(
+		'http://localhost:3000/api/get-content-news-img'
+	);
+	const contentNewsImg = await response11.json();
+
 	return {
 		props: {
 			realStateTypeList,
@@ -88,6 +121,10 @@ export async function getStaticProps() {
 			navs,
 			hotTitles,
 			hotImgsSell,
+			hotImgsRent,
+			hotTitlesRent,
+			contentNewsList,
+			contentNewsImg,
 		},
 	};
 }

@@ -11,7 +11,11 @@ function HotOffersMain(props) {
 				hotSellImgs={props.hotSellImgs}
 				hotLocations={props.hotLocations}
 			/>
-			<HotBodyRent />
+			<HotBodyRent
+				hotTitlesRent={props.hotTitlesRent}
+				hotImgsRent={props.hotImgsRent}
+				hotLocations={props.hotLocations}
+			/>
 		</div>
 	);
 }

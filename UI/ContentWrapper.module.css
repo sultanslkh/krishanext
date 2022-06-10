@@ -1,0 +1,9 @@
+.main_content_wrapper {
+	display: flex;
+	justify-content: space-between;
+
+	padding: 8px;
+	font-size: 13px;
+	line-height: 1.42857;
+	width: 100%;
+}

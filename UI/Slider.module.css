@@ -1,42 +1,18 @@
-.main_hot {
+.slider_main_cont {
 	position: relative;
 	z-index: 1;
-}
-
-.titles_hot {
-	display: flex;
-	align-items: center;
-	padding: 10px 15px;
-}
-
-.list_titles_hot {
-	display: flex;
-	align-items: center;
-	margin-bottom: 0px;
-
-	padding-left: 0px;
-}
-
-.list_titles_hot li {
-	list-style: none;
-
-	margin-left: 12px;
-	font-size: 13px;
-}
-
-.list_titles_hot strong {
-	font-size: 18px;
-	font-weight: 400;
-}
-
-.advertisement_title {
-	margin-left: 108px;
-	font-size: 13px;
 }
 
 .cont_images_sell_slider {
 	margin: 0 15px;
 	position: relative;
+}
+
+.hot_object {
+	margin-left: -1170px;
+	transition: all 0.5s;
+	height: 100%;
+	overflow: hidden;
 }
 
 .hot_images_row {
@@ -47,74 +23,24 @@
 	column-gap: 10px;
 	row-gap: 12px;
 	margin-bottom: 12px;
-	position: relative;
 }
 
 .hot_wrapper {
 	display: flex;
 	flex-direction: column;
-
-	position: relative;
 }
 
 .hot_wrapper span {
 	font-size: 11px;
 	max-height: 30px;
-	overflow: hidden;
+	/* overflow: hidden; */
 	color: #666;
 	line-height: 15px;
 }
 
-.main_hot button {
-	width: 30px;
-	height: 30px;
-	border: solid 1px #e1e1e1;
-	border-radius: 3px;
-	background: #fff;
-	outline: 0;
-
-	position: absolute;
-}
-.main_hot button:hover {
-	width: 30px;
-	height: 30px;
-	border: solid 1px #e1e1e1;
-	border-radius: 3px;
-	background: #ffd47e;
-	outline: 0;
-	transition: all 0.3s;
-
-	position: absolute;
-}
-
-.btn_prev_hot {
-	left: -20px;
-	top: 150px;
-}
-
-.btn_next_hot {
-	right: -20px;
-	top: 150px;
-}
-
-.btn_next_hot svg {
-	width: 16px;
-	height: 16px;
-}
-.btn_prev_hot svg {
-	width: 16px;
-	height: 16px;
-}
-
-/* Slider */
-.hot_object {
-	margin-left: -1170px;
-	transition: all 0.5s;
-	overflow: hidden;
-}
-
 .hot_wrap {
 	text-decoration: none;
+	position: relative;
 }
 
 .hot_wrap .hot_title {
@@ -145,11 +71,56 @@
 	display: none;
 }
 
-/* Hover */
-.hot_wrapper:hover {
-	transform: scale(1.5);
+/* BUTTON */
+.slider_main_cont button:hover {
+	width: 30px;
+	height: 30px;
+	border: solid 1px #e1e1e1;
+	border-radius: 3px;
+	background: #ffd47e;
+	outline: 0;
+	transition: all 0.3s;
+
+	position: absolute;
+}
+
+.slider_main_cont button {
+	width: 30px;
+	height: 30px;
+	border: solid 1px #e1e1e1;
+	border-radius: 3px;
 	background: #fff;
-	z-index: 2;
+	outline: 0;
+
+	position: absolute;
+}
+
+.btn_prev_hot {
+	left: -20px;
+	top: 150px;
+}
+
+.btn_next_hot {
+	right: -20px;
+	top: 150px;
+}
+
+.btn_next_hot svg {
+	width: 16px;
+	height: 16px;
+}
+.btn_prev_hot svg {
+	width: 16px;
+	height: 16px;
+}
+
+/* Hover */
+
+.hot_wrapper:hover {
+	transform: scale(1.7);
+
+	background: #fff;
+	z-index: 100;
 	box-shadow: 0 6px 12px hsla(0, 0%, 0%, 0.18);
 
 	padding: 3px 5px;
@@ -185,9 +156,11 @@
 	top: 95px;
 	width: 120px;
 }
+
 .hot_wrapper:hover .hot_title {
 	display: none;
 }
+
 .hot_wrapper:hover .hot_price {
 	display: none;
 }
