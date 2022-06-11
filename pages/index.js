@@ -6,13 +6,13 @@ import HotHeader from '../components/Hot-Offers/HotHeader';
 import HotOffersMain from '../components/Hot-Offers/HotOffersMain';
 import SearchForm from '../components/SearchForm';
 import PreContentRow from '../components/Content-Preview/PreContentRow';
+import SEOContainer from '../components/SEO-Section/SEOContainer';
 import 'bootstrap/dist/css/bootstrap.css';
 
 export default function Home({
 	realStateTypeList,
 	kazLocation,
 	roomNumber,
-	category,
 	navs,
 	hotTitles,
 	hotImgsSell,
@@ -20,6 +20,10 @@ export default function Home({
 	hotTitlesRent,
 	contentNewsList,
 	contentNewsImg,
+	contentBlockHeaders,
+	contentArticleList,
+	contentPRList,
+	seoParagraph,
 }) {
 	return (
 		<div>
@@ -51,7 +55,11 @@ export default function Home({
 					<PreContentRow
 						contentNewsList={contentNewsList}
 						contentNewsImg={contentNewsImg}
+						contentBlockHeaders={contentBlockHeaders}
+						contentArticleList={contentArticleList}
+						contentPRList={contentPRList}
 					/>
+					<SEOContainer seoParagraph={seoParagraph} />
 				</Wrapper>
 			</div>
 		</div>
@@ -112,6 +120,28 @@ export async function getStaticProps() {
 	);
 	const contentNewsImg = await response11.json();
 
+	//Hot-headers-content:
+	const response12 = await fetch(
+		'http://localhost:3000/api/get-content-block-headers'
+	);
+	const contentBlockHeaders = await response12.json();
+
+	//Content-article-list:
+	const response13 = await fetch(
+		'http://localhost:3000/api/get-content-article-list'
+	);
+	const contentArticleList = await response13.json();
+
+	//Content-pr-list:
+	const response14 = await fetch(
+		'http://localhost:3000/api/get-content-pr-list'
+	);
+	const contentPRList = await response14.json();
+
+	//Content-pr-list:
+	const response15 = await fetch('http://localhost:3000/api/get-seo-paragraph');
+	const seoParagraph = await response15.json();
+
 	return {
 		props: {
 			realStateTypeList,
@@ -125,6 +155,10 @@ export async function getStaticProps() {
 			hotTitlesRent,
 			contentNewsList,
 			contentNewsImg,
+			contentBlockHeaders,
+			contentArticleList,
+			contentPRList,
+			seoParagraph,
 		},
 	};
 }

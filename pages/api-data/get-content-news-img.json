@@ -4,5 +4,17 @@
 		"urlImg": "https://photos-kr.kcdn.kz/content/76/1759962a078a7dc9a3-815_-2022v-roshche-bauma-vyrubyat-bol-she-3-000-derev-ev.jpg",
 		"imgTitle": "В роще Баума вырубят больше 3 000 деревьев",
 		"imgTitleDesc": "Учёные настаивают на санитарной вырубке"
+	},
+	{
+		"id": 2,
+		"urlImg": "https://photos-kr.kcdn.kz/content/57/994162a193f815025-344_---2022kak-sdat-kvartiru-bez-remonta.jpg",
+		"imgTitle": "Как сдать квартиру без ремонта",
+		"imgTitleDesc": "Что делать, если нет денег на преображение"
+	},
+	{
+		"id": 3,
+		"urlImg": "https://photos-kr.kcdn.kz/content/b5/992962724c382cf1f-78405-04-krisha-pr-main-2022den-otkrytyh-dverey-proshel-v-novostroyke-almaty.jpg",
+		"imgTitle": "День открытых дверей прошел в новостройке Алматы",
+		"imgTitleDesc": "День открытых дверей прошел в 4-й очереди ЖК Gulder. Комплекс расположен вдоль проспе…"
 	}
 ]
