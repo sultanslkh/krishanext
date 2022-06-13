@@ -1,4 +1,6 @@
 .main_drop_cont {
+	transition: all 0.5s ease-out;
+
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -12,11 +14,17 @@
 	border-radius: 5px;
 	box-shadow: 0 6px 12px hsla(0, 0%, 0%, 0.18);
 
-	position: absolute;
+	/* position: absolute; */
 	top: 21.5%;
 	left: 27.9%;
-	z-index: 100;
-	transition: all 5s;
+	z-index: 5000;
+
+	position: fixed;
+
+	/* background-color: rgba(255, 255, 255, 0.4);
+	-webkit-backdrop-filter: blur(5px);
+	backdrop-filter: blur(5px);
+	z-index: 1000; */
 }
 
 .arrow {
@@ -44,6 +52,7 @@
 	border: 1px solid #abadb3;
 	border-radius: 5px;
 	padding: 15px;
+	/* z-index: 100; */
 }
 
 .main_drop_cont span {
@@ -52,10 +61,23 @@
 	left: 101%;
 	cursor: pointer;
 	color: #fff;
+	/* z-index: 100; */
 }
 
 .select option {
 	font-size: 15px;
 	font-weight: 300;
 	margin-bottom: 8px;
+	/* z-index: 100; */
+}
+
+.backdrop {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	z-index: 10;
+	transition: background 0.5s ease-out;
+	background: rgba(0, 0, 0, 0.75);
 }

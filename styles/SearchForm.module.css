@@ -40,6 +40,8 @@
 	border: none;
 	background: inherit;
 	border-bottom: 1px dotted;
+
+	position: relative;
 }
 
 .prices input {
@@ -84,4 +86,11 @@
 	text-decoration: none;
 	vertical-align: middle;
 	background-color: #fffee3;
+}
+
+.location_blur {
+	background-color: rgba(255, 255, 255, 0.4);
+	-webkit-backdrop-filter: blur(5px);
+	backdrop-filter: blur(5px);
+	z-index: 1000;
 }

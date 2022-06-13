@@ -7,6 +7,7 @@ import HotOffersMain from '../components/Hot-Offers/HotOffersMain';
 import SearchForm from '../components/SearchForm';
 import PreContentRow from '../components/Content-Preview/PreContentRow';
 import SEOContainer from '../components/SEO-Section/SEOContainer';
+import Footer from '../components/Footer';
 import 'bootstrap/dist/css/bootstrap.css';
 
 export default function Home({
@@ -24,6 +25,10 @@ export default function Home({
 	contentArticleList,
 	contentPRList,
 	seoParagraph,
+	seoSubHeader,
+	seoSellsMenuLi,
+	seoRentMenuLi,
+	newBuildingsList,
 }) {
 	return (
 		<div>
@@ -43,6 +48,7 @@ export default function Home({
 						location={kazLocation}
 						realstatetype={realStateTypeList}
 						rooms={roomNumber}
+						getActive={getActive}
 					/>
 					<HotHeader />
 					<HotOffersMain
@@ -59,11 +65,25 @@ export default function Home({
 						contentArticleList={contentArticleList}
 						contentPRList={contentPRList}
 					/>
-					<SEOContainer seoParagraph={seoParagraph} />
+					<SEOContainer
+						seoParagraph={seoParagraph}
+						seoSubHeader={seoSubHeader}
+						seoSellsMenuLi={seoSellsMenuLi}
+						seoRentMenuLi={seoRentMenuLi}
+						kazLocation={kazLocation}
+						newBuildingsList={newBuildingsList}
+					/>
+					<Footer />
 				</Wrapper>
 			</div>
 		</div>
 	);
+}
+
+//Got active from child (SearchForm.js)
+function getActive(activeState) {
+	console.log(activeState);
+	return activeState;
 }
 
 //JSON files:
@@ -138,9 +158,34 @@ export async function getStaticProps() {
 	);
 	const contentPRList = await response14.json();
 
-	//Content-pr-list:
+	//SEO-paragraph:
 	const response15 = await fetch('http://localhost:3000/api/get-seo-paragraph');
 	const seoParagraph = await response15.json();
+
+	//SEO-sub-headers:
+	const response16 = await fetch(
+		'http://localhost:3000/api/get-seocontent-sub-headers'
+	);
+
+	const seoSubHeader = await response16.json();
+
+	//SEO-sells-menu:
+	const response17 = await fetch(
+		'http://localhost:3000/api/get-seocontent-sells-menu-list'
+	);
+	const seoSellsMenuLi = await response17.json();
+
+	//SEO-rent-menu:
+	const response18 = await fetch(
+		'http://localhost:3000/api/get-seocontent-rent-menu-list'
+	);
+	const seoRentMenuLi = await response18.json();
+
+	//New-buildings-list:
+	const response19 = await fetch(
+		'http://localhost:3000/api/get-newbuildings-list'
+	);
+	const newBuildingsList = await response19.json();
 
 	return {
 		props: {
@@ -159,6 +204,10 @@ export async function getStaticProps() {
 			contentArticleList,
 			contentPRList,
 			seoParagraph,
+			seoSubHeader,
+			seoSellsMenuLi,
+			seoRentMenuLi,
+			newBuildingsList,
 		},
 	};
 }

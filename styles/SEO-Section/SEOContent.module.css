@@ -1,0 +1,26 @@
+.main_content_div {
+	margin-right: 3%;
+	width: 100%;
+}
+
+.subsection_header {
+	margin: 0 0 10px;
+	color: #333;
+	font-weight: 600;
+	font-size: 13px;
+	padding: 0;
+}
+
+.seo_main_menu_list {
+	display: flex;
+	flex-flow: wrap;
+	margin: 0;
+	padding: 0;
+}
+
+.seo_list_a {
+	margin-right: 4px;
+	color: #666;
+	font-size: 13px;
+	line-height: 20px;
+}

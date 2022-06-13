@@ -5,14 +5,14 @@
 
 .cont_images_sell_slider {
 	margin: 0 15px;
-	position: relative;
+	overflow: hidden;
+	z-index: 1000;
 }
 
 .hot_object {
 	margin-left: -1170px;
-	transition: all 0.5s;
+	transition: all 0.8s;
 	height: 100%;
-	overflow: hidden;
 }
 
 .hot_images_row {
@@ -22,18 +22,20 @@
 	grid-auto-flow: column;
 	column-gap: 10px;
 	row-gap: 12px;
+
 	margin-bottom: 12px;
 }
 
 .hot_wrapper {
 	display: flex;
 	flex-direction: column;
+	width: 120px;
+	height: 120px;
 }
 
 .hot_wrapper span {
 	font-size: 11px;
 	max-height: 30px;
-	/* overflow: hidden; */
 	color: #666;
 	line-height: 15px;
 }
@@ -44,7 +46,11 @@
 }
 
 .hot_wrap .hot_title {
-	margin-top: 18px;
+	display: block;
+	max-height: 30px;
+	overflow: hidden;
+	color: #666;
+	line-height: 15px;
 }
 
 .hot_wrap .hot_price {
@@ -97,12 +103,12 @@
 
 .btn_prev_hot {
 	left: -20px;
-	top: 150px;
+	top: 95px;
 }
 
 .btn_next_hot {
 	right: -20px;
-	top: 150px;
+	top: 95px;
 }
 
 .btn_next_hot svg {
@@ -117,24 +123,24 @@
 /* Hover */
 
 .hot_wrapper:hover {
-	transform: scale(1.7);
+	/* transform: scale(1.09); */
 
-	background: #fff;
-	z-index: 100;
+	/* background: #fff;
+	z-index: 2000;
+	
+	padding: 3px 5px; */
 	box-shadow: 0 6px 12px hsla(0, 0%, 0%, 0.18);
-
-	padding: 3px 5px;
 }
 
 .hot_wrapper:hover .drop_city {
 	display: flex;
 	align-items: center;
 	position: absolute;
-	top: 3px;
-	width: 120px;
+	top: 0.5px;
+	width: 100%;
 	background: rgba(0, 0, 0, 0.7);
 	color: #fff;
-	font-size: 8px;
+	font-size: 11px;
 	padding: 1px 1.5px;
 	z-index: 2000;
 }
@@ -149,17 +155,18 @@
 
 	background: rgba(0, 0, 0, 0.7);
 	color: #fff;
-	font-size: 8px;
+	font-size: 11px;
 	z-index: 2000;
 	align-items: center;
 	position: absolute;
-	top: 95px;
-	width: 120px;
+	top: 75px;
+	width: 100%;
+	padding: 1px 1.5px;
 }
 
-.hot_wrapper:hover .hot_title {
+/* .hot_wrapper:hover .hot_title {
 	display: none;
-}
+} */
 
 .hot_wrapper:hover .hot_price {
 	display: none;

@@ -11,6 +11,8 @@ function SearchForm(props) {
 	const [appearAppart, setAppearanceAppart] = useState('flex');
 	const [appearOffice, setAppearanceOffice] = useState('none');
 
+	props.getActive(active); //Sended to parent (index.js)
+
 	function typeHandler(e) {
 		if (
 			e.target.value === props.realstatetype.at(0).name ||
@@ -51,6 +53,7 @@ function SearchForm(props) {
 
 	function showModal() {
 		setActive(true);
+		// document.body.style.background = 'rgba(0,0,0,0.5)';
 	}
 
 	function showModalNewEstates() {
