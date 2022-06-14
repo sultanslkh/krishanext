@@ -1,19 +1,26 @@
 import Link from 'next/link';
-import { getStaticProps } from '../../pages';
 import stylish from '../../styles/Header.module.css';
 
 function Header({ navs }) {
 	return (
 		<div className={stylish.header}>
-			<h1 id="logo">КРЫША</h1>
+			<Link href="/">
+				<a>
+					<h1 className={stylish.header_h1} id="logo">
+						КРЫША
+					</h1>
+				</a>
+			</Link>
 			<ul>
 				{navs.map((nav) => (
 					<li key={nav.id}>
-						<Link href={`/nav/${nav.id}`}>{<a>{nav.title}</a>}</Link>
+						<Link href={`/${nav.url}`}>{<a>{nav.title}</a>}</Link>
 					</li>
 				))}
 			</ul>
-			<button>Подать объявление</button>
+			<Link href="/new">
+				<button className={stylish.header_button}>Подать объявление</button>
+			</Link>
 		</div>
 	);
 }

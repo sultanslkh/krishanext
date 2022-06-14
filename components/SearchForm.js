@@ -1,5 +1,4 @@
 import { React, useState } from 'react';
-import Link from 'next/link';
 import Locations from './Locations';
 import NewEstatesDrop from './NewEstatesDrop';
 import stylish from '../styles/SearchForm.module.css';
@@ -10,8 +9,6 @@ function SearchForm(props) {
 	const [appearFarmHouse, setAppearanceFarmHouse] = useState('none');
 	const [appearAppart, setAppearanceAppart] = useState('flex');
 	const [appearOffice, setAppearanceOffice] = useState('none');
-
-	props.getActive(active); //Sended to parent (index.js)
 
 	function typeHandler(e) {
 		if (
@@ -53,7 +50,6 @@ function SearchForm(props) {
 
 	function showModal() {
 		setActive(true);
-		// document.body.style.background = 'rgba(0,0,0,0.5)';
 	}
 
 	function showModalNewEstates() {

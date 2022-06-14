@@ -7,9 +7,10 @@
 	justify-content: space-between;
 }
 
-.header h1 {
+.header_h1 {
 	font-size: 40px;
 	font-weight: 600;
+	color: black;
 }
 
 .header ul {
@@ -26,7 +27,7 @@
 	font-weight: 300;
 }
 
-.header button {
+.header_button {
 	margin-bottom: 6px;
 	background: inherit;
 	padding: 9px 15px;
@@ -36,7 +37,7 @@
 	text-decoration: none;
 }
 
-.header button:hover {
+.header_button:hover {
 	margin-bottom: 6px;
 	padding: 9px 15px;
 	border: solid 1px #d4d4da;

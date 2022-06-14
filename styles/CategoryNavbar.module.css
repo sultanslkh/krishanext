@@ -1,0 +1,25 @@
+.submenu {
+	border-bottom: 1px solid #c5c5c5;
+	font-size: 13px;
+	background-color: #ebf8ff;
+	padding: 10px 0;
+}
+
+.list_titles_cat {
+	margin: 0px 12px;
+	padding: 0px;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.list_titles_cat li {
+	list-style: none;
+	text-decoration: underline;
+	color: rgb(66, 66, 255);
+}
+
+.list_titles_cat li:last-child {
+	color: green;
+}

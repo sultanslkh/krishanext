@@ -5,14 +5,16 @@
 
 .cont_images_sell_slider {
 	margin: 0 15px;
-	overflow: hidden;
 	z-index: 1000;
+	overflow: hidden;
 }
 
 .hot_object {
 	margin-left: -1170px;
 	transition: all 0.8s;
 	height: 100%;
+
+	position: relative;
 }
 
 .hot_images_row {
@@ -123,12 +125,11 @@
 /* Hover */
 
 .hot_wrapper:hover {
-	/* transform: scale(1.09); */
+	/* transform: scale(1.5); */
 
-	/* background: #fff;
+	background: #fff;
 	z-index: 2000;
-	
-	padding: 3px 5px; */
+	padding: 3px 5px;
 	box-shadow: 0 6px 12px hsla(0, 0%, 0%, 0.18);
 }
 
